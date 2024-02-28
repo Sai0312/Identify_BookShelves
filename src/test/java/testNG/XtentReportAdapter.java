@@ -32,8 +32,8 @@ public class XtentReportAdapter implements ITestListener
 		sparkReporter.config().setTheme(Theme.STANDARD);
 		extent=new ExtentReports();
 		extent.attachReporter(sparkReporter);
-		extent.setSystemInfo("Machine Name","LENOVO ThinkPad");
-		extent.setSystemInfo("Tester","Yash");
+		extent.setSystemInfo("Machine Name","HP EliteBook");
+		extent.setSystemInfo("Tester","Sahithyan S");
 		extent.setSystemInfo("OS","Windows 11");
 		extent.setSystemInfo("Browser","Chrome/Edge/Firefox");
 	}
